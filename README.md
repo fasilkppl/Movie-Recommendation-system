@@ -1,17 +1,9 @@
 # The-Movie-Cinema
 
-![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
-![Framework](https://img.shields.io/badge/Framework-Flask-red)
-![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-green)
-![API](https://img.shields.io/badge/API-TMDB-fcba03)
-
 This application provides all the details of the requested movie such as overview, genre, release date, rating, runtime, top cast, reviews, recommended movies, etc.
 
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
 
-## Link to the application
-
-Check out the live demo: https://tmc.kishanlal.dev/
 
 If you can't find the movie you're searching for through auto-suggestions while typing, there's no need to worry. Simply type the name of the movie and press "enter". Even if you make some typos, it should still work fine.
 
@@ -39,5 +31,3 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
 3. [List of movies in 2018](https://en.wikipedia.org/wiki/List_of_American_films_of_2018)
 4. [List of movies in 2019](https://en.wikipedia.org/wiki/List_of_American_films_of_2019)
 5. [List of movies in 2020](https://en.wikipedia.org/wiki/List_of_American_films_of_2020)
-
-Please do ⭐ the repository, if it helped you in anyway.
